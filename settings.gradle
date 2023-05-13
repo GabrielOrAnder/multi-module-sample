@@ -14,3 +14,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "multi-module-sample"
 include ':app'
+include ':home'
+include ':home:feature'
+include ':home:sample'
