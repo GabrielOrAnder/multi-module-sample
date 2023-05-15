@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         val navHostFragment = supportFragmentManager
             .findFragmentById(R.id.nav_host_fragment) as NavHostFragment
 
+        setSupportActionBar(binding.toolbar)
         navHostFragment.navController
     }
 
@@ -30,6 +31,8 @@ class MainActivity : AppCompatActivity() {
     private fun setupBottomNavigation() {
         val appBarConfiguration = AppBarConfiguration(
             setOf(
+                R.id.homeFragment,
+                R.id.homeFragment,
                 R.id.homeFragment
             )
         )
