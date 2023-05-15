@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/homeFragment"
+        android:id="@+id/home"
         android:enabled="true"
         android:icon="@drawable/home_icon"
         android:title="@string/bottom_navigation_option_home"/>
 
     <item
-        android:id="@+id/SearchFragment"
+        android:id="@+id/search"
         android:enabled="true"
         android:icon="@drawable/search_icon"
         android:title="@string/bottom_navigation_option_search"/>
 
     <item
-        android:id="@+id/BookmarkFragment"
+        android:id="@+id/bookmark"
         android:enabled="true"
         android:icon="@drawable/bookmark_icon"
         android:title="@string/bottom_navigation_option_bookmark"/>
