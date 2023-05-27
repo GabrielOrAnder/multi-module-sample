@@ -2,15 +2,15 @@ package br.com.gabrielorander.sample
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import br.com.gabrielorander.feature.HomeFragment
+import br.com.gabrielorander.sample.databinding.ActivitySampleBinding
 
 class SampleActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivitySampleBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_sample)
-
-        supportFragmentManager.beginTransaction()
-            .replace(R.id.container, HomeFragment())
-            .commit()
+        binding = ActivitySampleBinding.inflate(layoutInflater)
+        setContentView(binding.root)
     }
 }
