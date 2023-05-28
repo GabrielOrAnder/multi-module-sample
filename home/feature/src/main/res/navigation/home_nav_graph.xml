@@ -13,9 +13,9 @@
         <action
             android:id="@+id/action_homeFragment_to_homeDetailsFragment"
             app:destination="@id/homeDetailsFragment"
-            app:launchSingleTop="true"
+            app:launchSingleTop="false"
             app:popUpTo="@id/homeFragment"
-            app:popUpToInclusive="true" />
+            app:popUpToInclusive="false" />
     </fragment>
     <fragment
         android:id="@+id/homeDetailsFragment"
